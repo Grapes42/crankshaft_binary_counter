@@ -1,6 +1,12 @@
 # Crankshaft Binary Counter
 
-## Spur gear calculations
+## Index
+[1. Spur Gears](#1-spur-gears)
+[1.1. Spur gear calculations](#11-spur-gear-calculations)
+[1.2. CAD Modelling](#12-cad-modelling)
+
+## 1. Spur gears
+### 1.1 Spur gear calculations
 
 Using simple python code I created functions to simplify solving variables for spur gears, based on the equations found [here](https://www.engineersedge.com/gear_formula.htm)
 ```py
@@ -27,9 +33,15 @@ def calc_t(P): # Calculate thickness at pitch line
     t = 1.5708 / P
     return t
 ```
-For the sake of my gears I found:
+For my gears I found:
 - Diametral Pitch: 0.4
 - Circular Pitch: 7.854
 - Addendum: 2.5
 - Dedendum: 3.125
 - Thickness: 3.927
+
+## 1.2. CAD Modelling
+Using FreeCAD I modelled a gear and pinion assembly. The gears have a 2:1 ratio, with 16 and 8 teeth respectively.
+|FreeCAD Sketcher|Technical Drawing|
+|----------------|-----------------|
+|![sketcher image](/images/gears_cad.png)|![techdraw image](/images/gear_and_pinion.png)|

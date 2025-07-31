@@ -1,5 +1,7 @@
 # Crankshaft Binary Counter
 
+This project will consist of a 3D printed 4 cylinder crankshaft and block assembly, with a slight twist. The idea is to use intermittent gearing to move the pistons up and down in accordance with binary counting. Its mostly just a fun desk toy, but it'll be a fun way for me to learn more about gearing.
+
 ## Index
 [1. Spur Gears](#1-spur-gears)
 [1.1. Spur gear calculations](#11-spur-gear-calculations)

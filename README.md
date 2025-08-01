@@ -4,11 +4,11 @@ This project will consist of a 3D printed 4 cylinder crankshaft and block assemb
 
 ## Index
 [1. Spur Gears](#1-spur-gears)
-[1.1. Spur gear calculations](#11-spur-gear-calculations)
+[1.1. Calculations](#11-calculations)
 [1.2. CAD Modelling](#12-cad-modelling)
 
 ## 1. Spur gears
-### 1.1 Spur gear calculations
+### 1.1. Calculations
 
 Using simple python code I created functions to simplify solving variables for spur gears, based on the equations found [here](https://www.engineersedge.com/gear_formula.htm)
 ```py
@@ -47,3 +47,6 @@ Using FreeCAD I modelled a gear and pinion assembly. The gears have a 2:1 ratio,
 |FreeCAD Sketcher|Technical Drawing|
 |----------------|-----------------|
 |![sketcher image](/images/gears_cad.png)|![techdraw image](/images/gear_and_pinion.png)|
+
+## 2. Geneva Drive
+### 2.1. Calculations

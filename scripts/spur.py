@@ -1,38 +1,14 @@
-# Spur gear calculator
+from gear import Gear
 
-# Constants
-pi = 3.14159
+print("0 is undefined")
 
-# Variables
-N_g = 16 # No of teeth in gear
-N_p = 8 # No of teeth in pinion
+# P and p require n and d
+# a, b and t require P
 
-D_g = 40 # Pitch diameter of gear
-D_p = 20 # Pitch diameter of pinion
+gear = Gear("Gear", d=28.28, n=12)
+gear.calc_P()
+gear.calc_a()
+gear.calc_b()
+gear.calc_t()
 
-
-# Diametral pitch
-def calc_P(N, D):
-    P = N / D
-    return P
-
-def calc_p(N, D):
-    p = (pi * D) / N
-    return p
-
-def calc_a(P):
-    a = 1 / P
-    return a
-
-def calc_b(P):
-    d = 1.25 / P
-    return d
-
-def calc_t(P):
-    t = 1.5708 / P
-    return t
-
-P = calc_P(N_g, D_g)
-t = calc_t(P)
-
-print(t)
+print(gear)
